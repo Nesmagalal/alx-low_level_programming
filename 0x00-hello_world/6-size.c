@@ -3,6 +3,7 @@
  * main -Entry piont
  *
  *description: using sizeof "/
+ *
  *return :always 0(success)
 */
 int main(void)
