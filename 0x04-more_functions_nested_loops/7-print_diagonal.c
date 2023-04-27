@@ -1,7 +1,7 @@
 #include "main.h"
 /**
   * print_diagonal - print adiagonal  line
-  * @n: is the number of the times
+  * @n: is the number of the \
   * the character should be printed
 */
 void print_diagonal(int n)
