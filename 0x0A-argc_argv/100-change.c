@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
 	if (argc == 2)
 	{
 		int f, res = 0, money = atoi(argv[1]);
-		int cents[] = {25, 10, 5, 2, 1,};
+		int cents[] = {25, 10, 5, 2, 1};
 
 		for (f = 0; f < 5; f++)
 		{
