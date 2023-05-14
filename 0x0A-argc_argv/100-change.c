@@ -18,6 +18,7 @@ int main(int argc, char *argv[])
 			if (money >= cents[f])
 			{
 				res += money / cents[f];
+				money = money % cents [f];
 				if (money % cents[f] == 0)
 				{
 					break;
