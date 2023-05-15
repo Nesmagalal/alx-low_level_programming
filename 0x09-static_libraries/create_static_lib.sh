@@ -1,0 +1,1 @@
+ar liball.a *.c
