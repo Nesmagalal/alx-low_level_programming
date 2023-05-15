@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-  * main void_puts - At the end of the day, my goal was to be the best hacker"
+  * int main _puts - At the end of the day, my goal was to be the best hacker"
   * Return: always 0
   */
 
