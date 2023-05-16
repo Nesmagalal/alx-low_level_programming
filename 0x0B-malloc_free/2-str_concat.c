@@ -29,12 +29,8 @@ char *str_concat(char *s1, char *s2)
 	if (s2 == NULL)
 		s2 = NULL;
 
-	f = k = 0;
-
-	while (s1[f] != '\0')
-		f++;
-	while (s2[k] != '\0')
-		k++;
+	f = _strlen(s1);
+	k = _strlen(s2);
 	ptr = malloc(sizeof(char) + 1 * (f + k));
 	if (ptr == 0)
 		return (0);
