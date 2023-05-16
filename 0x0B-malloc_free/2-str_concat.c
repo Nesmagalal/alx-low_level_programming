@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdlib.h>
 /**
   * _strlen - find length of a string
   * @s: string
@@ -31,9 +30,10 @@ char *str_concat(char *s1, char *s2)
 
 	f = _strlen(s1);
 	k = _strlen(s2);
-	ptr = malloc(sizeof(char) + 1 * (f + k));
+	ptr = malloc((f + k)*sizeof(char) + 1);
 	if (ptr == 0)
 		return (0);
+
 	for (i = 0; i <= f + k; i++)
 	{
 		if (i < f)
