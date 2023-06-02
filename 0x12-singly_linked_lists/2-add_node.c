@@ -9,7 +9,7 @@
  */
 list_t *add_node(list_t **head, const char *str)
 {
-	list_t * head_new;
+	list_t *head_new;
 	unsigned int f = 0;
 
 	while (str[f])
